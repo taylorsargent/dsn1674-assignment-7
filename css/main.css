@@ -70,6 +70,8 @@ img {
   float: left;
   margin: 0;
   padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner {
@@ -97,11 +99,12 @@ footer {
   opacity: .5;
   width: 100%;
   height: 2em;
-  display: block;
+  position: relative;
+  overflow: hidden;
 }
 
-.btn {
-  display: inline;
+.btn-ant {
+  position: absolute;
   padding: 0.5em 0.75em;
   text-decoration: none;
   color: white;
