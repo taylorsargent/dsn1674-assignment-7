@@ -70,7 +70,6 @@ img {
   float: left;
   margin: 0;
   padding: 0;
-  position: relative;
   overflow: hidden;
 }
 
@@ -82,6 +81,7 @@ img {
   position: relative;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to bottom, transparent, black)
 }
 
 .banner-title {
@@ -103,13 +103,90 @@ footer {
   overflow: hidden;
 }
 
-.btn {
+.ant {
+  position: relative;
+}
+
+.stag {
+  position: relative;
+}
+
+.dung {
+  position: relative;
+}
+
+.tortoise {
+  position: relative;
+}
+
+.btn-ant {
   position: absolute;
-  overflow: hidden;
+  top: 150px;
+  left: 40px;
   padding: 0.5em 0.75em;
   text-decoration: none;
   color: white;
-  background-color: #a8ae98;
+  font-family: 'Dosis', sans-serif;
+  background-color: #6FC000;
   border-radius: 10px;
-  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52)
+  background-image: linear-gradient(to bottom, #6FC000, #388200)
+}
+
+.btn-ant:hover {
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #388200, #214D00)
+}
+
+.btn-stag {
+  position: absolute;
+  top: 150px;
+  left: 225px;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  background-color: #6FC000;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #6FC000, #388200)
+}
+
+.btn-stag:hover {
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #388200, #214D00)
+}
+
+.btn-dung {
+  position: absolute;
+  top: 350px;
+  left: 225px;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  background-color: #6FC000;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #6FC000, #388200)
+}
+
+.btn-dung:hover {
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #388200, #214D00)
+}
+
+.btn-tortoise {
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  background-color: #6FC000;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #6FC000, #388200)
+}
+
+.btn-tortoise:hover {
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #388200, #214D00)
 }
