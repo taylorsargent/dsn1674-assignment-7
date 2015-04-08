@@ -109,6 +109,7 @@ footer {
 .footer-img {
   width: 25px;
   margin: 10px;
+  opacity: 0;
 }
 
 .ant {
