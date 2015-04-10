@@ -76,10 +76,10 @@ img {
 
 .banner {
   text-align: center;
+  position: relative;
 }
 
 .rocks {
-  position: relative;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -87,13 +87,14 @@ img {
 
 .banner-title {
   position: absolute;
-  top: 10em;
+  bottom: 0;
   font-family: 'Dosis', sans-serif;
   font-size: 1.25em;
   color: white;
   padding: 40px;
   margin: 0;
   background-image: linear-gradient(to bottom, transparent, black);
+  width: 100%;
 }
 
 footer {
@@ -131,8 +132,8 @@ footer {
 
 .btn-ant {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  bottom: 1em;
+  left: calc(50% - 50px);
   padding: 0.5em 0.75em;
   width: 100px;
   text-align: center;
@@ -151,8 +152,8 @@ footer {
 
 .btn-stag {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  bottom: 1em;
+  left: calc(50% - 50px);
   padding: 0.5em 0.75em;
   width: 100px;
   text-align: center;
@@ -171,8 +172,8 @@ footer {
 
 .btn-dung {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  bottom: 1em;
+  left: calc(50% - 50px);
   padding: 0.5em 0.75em;
   width: 100px;
   text-align: center;
@@ -191,8 +192,8 @@ footer {
 
 .btn-tortoise {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  bottom: 1em;
+  left: calc(50% - 50px);
   padding: 0.5em 0.75em;
   width: 100px;
   text-align: center;
